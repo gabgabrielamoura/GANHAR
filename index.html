@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GANHAR · Gestão humana, desenvolvimento que faz sentido</title>
+<meta name="description" content="Implementação da NR-1 e Método GANHAR®: diagnóstico psicossocial, perfis funcionais e plano de ação para a sua empresa.">
+<meta property="og:title" content="GANHAR · A NR-1 na prática, com gente de verdade">
+<meta property="og:description" content="Implementação da NR-1 e Método GANHAR®: uma conversa, um perfil, um plano.">
+<meta property="og:image" content="assets/foto_palestra.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='90 23 40 40'%3E%3Crect x='90' y='23' width='40' height='40' rx='20' fill='%23F0FDFA'/%3E%3Cpath d='M117.5 42.58c0 1.1-.25 2.19-.75 3.17a7.08 7.08 0 0 1-6.33 3.92 7 7 0 0 1-3.17-.75l-4.75 1.58 1.58-4.75a7 7 0 0 1-.75-3.17 7.08 7.08 0 0 1 3.92-6.33 7 7 0 0 1 3.17-.75h.42a7.06 7.06 0 0 1 6.67 6.67z' fill='%23CBFBF1' stroke='%230D9488'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/app.js"></script>
+</head>
+<body>
+
+<!-- ============ Cabeçalho ============ -->
+<header class="header">
+  <div class="wrap header-in">
+    <a class="logo" href="#inicio" data-go="inicio" aria-label="GANHAR, página inicial">
+      <svg width="40" height="40" viewBox="90 23 40 40" fill="none" aria-hidden="true"><rect x="90" y="23" width="40" height="40" rx="20" fill="#F0FDFA"/><path d="M117.5 42.5834C117.503 43.6832 117.246 44.7683 116.75 45.75C116.162 46.9265 115.258 47.916 114.14 48.6078C113.021 49.2995 111.732 49.6662 110.417 49.6667C109.317 49.6696 108.232 49.4126 107.25 48.9167L102.5 50.5L104.083 45.75C103.587 44.7683 103.33 43.6832 103.333 42.5834C103.334 41.2682 103.701 39.9791 104.392 38.8605C105.084 37.7419 106.074 36.838 107.25 36.25C108.232 35.7541 109.317 35.4972 110.417 35.5H110.833C112.57 35.5959 114.211 36.329 115.441 37.5591C116.671 38.7892 117.404 40.4297 117.5 42.1667V42.5834Z" fill="#CBFBF1" stroke="#0D9488" stroke-linecap="round" stroke-linejoin="round"/><path d="M110 39.25V45.0833" stroke="#0D9488" stroke-width="1.5" stroke-linecap="round"/><path d="M107.5 42.5834L110 45.0834L112.5 42.5834" stroke="#0D9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>GANHAR</span>
+    </a>
+    <nav class="nav" aria-label="Páginas">
+      <a class="navpill" href="#inicio" data-go="inicio" style="display:inline-flex;align-items:center;text-decoration:none">Início</a>
+      <a class="navpill" href="#nr1" data-go="nr1" style="display:inline-flex;align-items:center;text-decoration:none">Implementação NR-1</a>
+      <a class="navpill" href="#metodo" data-go="metodo" style="display:inline-flex;align-items:center;text-decoration:none">Método GANHAR</a>
+    </nav>
+    <a class="btn btn-primary header-cta" href="#contato" data-go="inicio" data-target="contato">Falar com a gente</a>
+  </div>
+</header>
+
+<main>
+
+<!-- ======================================================= -->
+<!-- ===================== INÍCIO ========================== -->
+<!-- ======================================================= -->
+<div data-page="inicio" class="fade">
+
+  <section style="position:relative;overflow:hidden;background:#fff">
+    <div aria-hidden="true" style="position:absolute;right:-180px;top:40px;width:720px;height:720px;border-radius:50%;background:#CBFBF1;opacity:.75"></div>
+    <div class="wrap" style="position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:56px;padding-top:72px;padding-bottom:96px">
+      <div style="flex:1 1 460px;min-width:0;display:flex;flex-direction:column;gap:24px">
+        <span class="chip chip-teal" style="align-self:flex-start;gap:8px;padding:6px 14px"><span style="width:6px;height:6px;border-radius:50%;background:#0D9488"></span>Riscos psicossociais já fazem parte do PGR</span>
+        <h1 class="h1">A NR-1 na prática, <span style="color:#00786F">com gente de verdade</span></h1>
+        <p class="lead" style="max-width:540px">A gente vai até a sua empresa, conversa com as equipes, mede o que não aparece numa inspeção e entrega um plano de ação que funciona no dia a dia.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:12px">
+          <a class="btn btn-primary" href="#nr1" data-go="nr1">Implementar a NR-1</a>
+          <a class="btn btn-secondary" href="#mapa" data-go="inicio" data-target="mapa">Ver o que medimos
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:40px;padding-top:24px;border-top:1px solid #E3E8E8;margin-top:8px">
+          <div><div style="font-size:32px;font-weight:800;letter-spacing:-.02em">5</div><div style="font-size:13px;color:#5A6575">fases de implementação</div></div>
+          <div><div style="font-size:32px;font-weight:800;letter-spacing:-.02em">12 sem.</div><div style="font-size:13px;color:#5A6575">até o plano de ação</div></div>
+          <div><div style="font-size:32px;font-weight:800;letter-spacing:-.02em">64</div><div style="font-size:13px;color:#5A6575">perfis no Método GANHAR®</div></div>
+        </div>
+      </div>
+      <div style="flex:1 1 460px;min-width:0;position:relative;padding:48px 0 40px">
+        <img src="assets/foto_palestra.webp" alt="Palestra sobre NR-1 com colaboradores de uma indústria" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:22px;box-shadow:0 20px 25px -5px rgba(0,0,0,.15)">
+        <div style="position:absolute;top:0;left:-16px;width:290px;max-width:80%;padding:16px 18px;background:#fff;border-radius:16px;box-shadow:0 10px 15px -3px rgba(0,0,0,.1)">
+          <div class="label">Seu programa</div>
+          <div style="display:flex;gap:6px;margin:10px 0">
+            <span style="flex:1;height:6px;border-radius:3px;background:#00786F"></span><span style="flex:1;height:6px;border-radius:3px;background:#009689"></span><span style="flex:1;height:6px;border-radius:3px;background:#00BBA7"></span><span style="flex:1.4;height:6px;border-radius:3px;background:#46EDD5"></span><span style="flex:.6;height:6px;border-radius:3px;background:#96F7E4"></span>
+          </div>
+          <div style="font-size:12px;color:#5A6575"><strong style="color:#19212E">5 fases</strong> · plano de ação em 12 semanas</div>
+        </div>
+        <span class="chip chip-ok float" style="position:absolute;top:60px;right:-8px;box-shadow:0 4px 6px -1px rgba(0,0,0,.08)">✓ Sempre</span>
+        <span class="chip chip-high float" style="position:absolute;top:46%;right:-14px;box-shadow:0 4px 6px -1px rgba(0,0,0,.08)">↓ Raramente</span>
+        <span class="chip chip-crit float" style="position:absolute;bottom:70px;left:-18px;box-shadow:0 4px 6px -1px rgba(0,0,0,.08)">✕ Nunca</span>
+        <span class="chip chip-mid float" style="position:absolute;bottom:20px;left:42%;box-shadow:0 4px 6px -1px rgba(0,0,0,.08)">≈ Às vezes</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:40px">
+      <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px">
+        <div style="display:flex;flex-direction:column;gap:12px;max-width:640px">
+          <p class="eyebrow">NR-1 em três perguntas</p>
+          <h2 class="h2">Olhar para as pessoas também é segurança do trabalho</h2>
+        </div>
+        <a class="btn btn-secondary" href="#nr1" data-go="nr1">Ver a implementação completa
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px">
+        <div class="card" style="padding:32px;display:flex;flex-direction:column;gap:14px">
+          <div style="font-size:56px;font-weight:800;color:#B2ECE5;line-height:1">01</div>
+          <h3 style="margin:0;font-size:20px;font-weight:700">O que é?</h3>
+          <p style="margin:0;font-size:14px;line-height:1.7;color:#5A6575">A Norma Regulamentadora nº 01, atualizada pela Portaria MTE nº 1.419/2024, organiza a gestão de saúde e segurança no PGR. Agora, os fatores psicossociais também fazem parte dele.</p>
+        </div>
+        <div class="card" style="padding:32px;display:flex;flex-direction:column;gap:14px">
+          <div style="font-size:56px;font-weight:800;color:#B2ECE5;line-height:1">02</div>
+          <h3 style="margin:0;font-size:20px;font-weight:700">Como implementar?</h3>
+          <ol style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px">
+            <li style="display:flex;gap:14px;align-items:center;padding:12px 16px;background:#F3F4F6;border-radius:12px;font-size:14px"><strong style="color:#00786F">1</strong>Identificar o que afeta as pessoas</li>
+            <li style="display:flex;gap:14px;align-items:center;padding:12px 16px;background:#F3F4F6;border-radius:12px;font-size:14px"><strong style="color:#00786F">2</strong>Avaliar e priorizar por setor</li>
+            <li style="display:flex;gap:14px;align-items:center;padding:12px 16px;background:#F3F4F6;border-radius:12px;font-size:14px"><strong style="color:#00786F">3</strong>Agir e acompanhar os indicadores</li>
+          </ol>
+        </div>
+        <div class="card" style="padding:32px;display:flex;flex-direction:column;gap:14px">
+          <div style="font-size:56px;font-weight:800;color:#B2ECE5;line-height:1">03</div>
+          <h3 style="margin:0;font-size:20px;font-weight:700">Como a gente implementa?</h3>
+          <div style="display:flex;flex-direction:column">
+            <div id="phase-summary" style="display:contents"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" style="background:#134E4A;color:#fff">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:44px">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px">
+        <div style="display:flex;flex-direction:column;gap:12px;max-width:680px">
+          <p class="eyebrow" style="color:#46EDD5">O que um levantamento revela</p>
+          <h2 class="h2" style="color:#fff">Em uma indústria com 193 colaboradores, o diagnóstico mostrou onde cuidar primeiro</h2>
+        </div>
+        <p style="margin:0;max-width:340px;font-size:13px;line-height:1.6;color:#CBFBF1">Levantamento preliminar em 10 setores, de março de 2026. Dados de cliente, anonimizados.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px">
+        <div id="temas" style="display:contents"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mapa" class="sec anchor">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:32px">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:20px">
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <p class="eyebrow">Exemplo de entregável</p>
+          <h2 class="h2">Mapa de temas de atenção por setor</h2>
+          <p style="margin:0;font-size:15px;color:#5A6575">É assim que a liderança enxerga, numa tela, onde agir primeiro. Clique num tema para destacar.</p>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:18px;font-size:13px;color:#5A6575">
+          <span style="display:inline-flex;align-items:center;gap:8px"><span style="width:14px;height:14px;border-radius:4px;background:#00786F"></span>Tema de atenção</span>
+          <span style="display:inline-flex;align-items:center;gap:8px"><span style="width:14px;height:14px;border-radius:4px;background:#E5E7EB"></span>Sem atenção no momento</span>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start">
+        <div class="card" style="flex:999 1 640px;min-width:0;padding:24px;overflow-x:auto">
+          <table style="width:100%;min-width:620px;border-collapse:separate;border-spacing:6px 6px;font-size:14px">
+            <thead id="mapa-head"></thead>
+            <tbody id="mapa-body"></tbody>
+          </table>
+        </div>
+        <div style="flex:1 1 300px;min-width:0;display:flex;flex-direction:column;gap:16px">
+          <div style="padding:26px;border-radius:20px;background:var(--grad-resultado);color:#fff">
+            <div class="label" style="color:#CBFBF1">Leitura rápida</div>
+            <p style="margin:8px 0 0;font-size:21px;line-height:1.3;font-weight:700">As linhas de produção reúnem 145 das 193 pessoas, e é por elas que o plano começa.</p>
+          </div>
+          <div class="card" style="padding:22px">
+            <div class="label">Tema mais frequente</div>
+            <div style="font-size:17px;font-weight:700;margin-top:6px">Relações no trabalho</div>
+            <p style="margin:6px 0 0;font-size:13px;line-height:1.6;color:#5A6575">Comunicação e convivência entre equipes aparecem em 9 dos 10 setores.</p>
+          </div>
+          <div class="card" style="padding:22px">
+            <div class="label">Próximo passo</div>
+            <div style="font-size:17px;font-weight:700;margin-top:6px">Plano de ação por setor</div>
+            <p style="margin:6px 0 0;font-size:13px;line-height:1.6;color:#5A6575">Cada tema vira ações com responsável, prazo e acompanhamento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px">
+    <div class="wrap" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px">
+      <a class="card card-btn" href="#fases" data-go="nr1" data-target="fases" style="padding:30px;display:flex;flex-direction:column;gap:12px;text-decoration:none">
+        <span class="label">Serviço 01</span>
+        <span style="font-size:22px;font-weight:700;color:#19212E">Implementação da NR-1</span>
+        <span style="font-size:14px;line-height:1.6;color:#5A6575">Diagnóstico, perfis, plano de ação, implementação e monitoramento, em 5 fases.</span>
+        <span style="font-size:14px;font-weight:600;color:#00786F;margin-top:6px">Ver as fases →</span>
+      </a>
+      <a class="card card-btn" href="#entregaveis" data-go="nr1" data-target="entregaveis" style="padding:30px;display:flex;flex-direction:column;gap:12px;text-decoration:none">
+        <span class="label">Serviço 02</span>
+        <span style="font-size:22px;font-weight:700;color:#19212E">Consultoria</span>
+        <span style="font-size:14px;line-height:1.6;color:#5A6575">Mapa de risco, pesquisa de clima, avaliação de perfil e de desempenho, e bem-estar.</span>
+        <span style="font-size:14px;font-weight:600;color:#00786F;margin-top:6px">Falar sobre consultoria →</span>
+      </a>
+      <a class="card card-btn" href="#metodo" data-go="metodo" style="padding:30px;display:flex;flex-direction:column;gap:12px;text-decoration:none">
+        <span class="label">Serviço 03</span>
+        <span style="font-size:22px;font-weight:700;color:#19212E">GANHAR</span>
+        <span style="font-size:14px;line-height:1.6;color:#5A6575">Perfil funcional de cada colaborador, com recomendações para a gestão.</span>
+        <span style="font-size:14px;font-weight:600;color:#00786F;margin-top:6px">Conhecer o método →</span>
+      </a>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px">
+    <div class="wrap">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:40px;padding:clamp(28px,5vw,64px);border-radius:28px;background:var(--grad-entrada);overflow:hidden">
+        <div style="flex:1 1 420px;min-width:0;display:flex;flex-direction:column;gap:20px">
+          <p class="eyebrow" style="color:#134E4A">Método GANHAR®</p>
+          <h2 class="h2">Cada pessoa responde a uma conversa. A empresa recebe inteligência.</h2>
+          <p style="margin:0;font-size:15px;line-height:1.7">O questionário funciona como um chat, no celular. No fim, cada colaborador recebe um perfil funcional entre 64 possíveis, com pontos de força, pontos de melhoria e ações recomendadas.</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px">
+            <a class="mini-card" href="#publico" data-go="metodo" data-target="publico" data-set-aud="empresa"><span class="label" style="color:#00786F;font-weight:700">Para a empresa →</span><span style="display:block;font-size:14px;font-weight:600;margin-top:4px;color:#19212E">Consultoria com acompanhamento das psicólogas</span></a>
+            <a class="mini-card" href="#publico" data-go="metodo" data-target="publico" data-set-aud="pessoa"><span class="label" style="color:#00786F;font-weight:700">Para cada pessoa →</span><span style="display:block;font-size:14px;font-weight:600;margin-top:4px;color:#19212E">Uso individual para melhorar o próprio desempenho</span></a>
+          </div>
+          <div><a class="btn btn-primary" href="#metodo" data-go="metodo">Conhecer o GANHAR</a></div>
+        </div>
+        <div style="flex:1 1 420px;min-width:0;display:flex;justify-content:center;align-items:flex-end">
+          <div class="phone hide-sm" style="width:168px;height:350px;margin-right:-18px;transform:translateY(16px)"><img src="assets/tela_boasvindas.webp" alt="Tela de boas-vindas do GANHAR"></div>
+          <div class="phone" style="width:196px;height:408px;z-index:2"><img src="assets/tela_progresso.webp" alt="Conversa do questionário com respostas"></div>
+          <div class="phone hide-sm" style="width:168px;height:350px;margin-left:-18px;transform:translateY(16px)"><img src="assets/tela_relatorio.webp" alt="Relatório GANHAR com perfil Sensível sob Pressão"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:28px">
+      <div style="display:flex;flex-direction:column;gap:12px"><p class="eyebrow">Quem já viveu</p><h2 class="h2">Na prática, com as equipes</h2></div>
+      <div style="display:flex;flex-wrap:wrap;gap:24px">
+        <div style="flex:1.4 1 480px;min-width:0;display:flex;flex-wrap:wrap;gap:24px;padding:40px 0 0 40px;border-radius:24px;background:var(--grad-documento);color:#fff;overflow:hidden;min-height:440px">
+          <div style="flex:1 1 260px;display:flex;flex-direction:column;gap:18px;padding-bottom:40px;padding-right:16px">
+            <p class="eyebrow" style="color:#46EDD5">Método GANHAR®</p>
+            <h3 style="margin:0;font-size:34px;line-height:1.15;font-weight:800;letter-spacing:-.02em">Para a empresa e para cada pessoa</h3>
+            <p style="margin:0;font-size:14px;line-height:1.7;color:#E6F7F5">Na consultoria, as psicólogas acompanham os perfis da equipe. No uso individual, cada colaborador recebe o próprio perfil e ações para evoluir.</p>
+            <div style="margin-top:auto"><a class="btn btn-white" href="#metodo" data-go="metodo">Ver como funciona</a></div>
+          </div>
+          <div class="phone cut" style="flex:0 0 230px;height:400px;align-self:flex-end;margin-bottom:-4px"><img src="assets/tela_relatorio.webp" alt="Relatório GANHAR no celular"></div>
+        </div>
+        <div style="flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:16px">
+          <div style="position:relative;flex:1;min-height:300px;border-radius:24px;overflow:hidden">
+            <img src="assets/foto_apresentacao.webp" alt="Psicóloga apresentando resultados para a equipe de uma empresa" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+            <div style="position:absolute;left:16px;right:16px;bottom:16px;padding:14px 18px;border-radius:14px;background:rgba(255,255,255,.92);font-size:13px;font-weight:500;letter-spacing:.5px">APRESENTANDO PARA AS EMPRESAS</div>
+          </div>
+          <div class="card" style="display:flex;flex-wrap:wrap;align-items:center;gap:24px;padding:16px 22px">
+            <span class="label">Clientes</span>
+            <img src="assets/logo_nlk.webp" alt="NLK" style="height:44px;width:auto">
+            <img src="assets/logo_did.webp" alt="DID" style="height:40px;width:auto">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato: chat interativo -->
+  <section id="contato" class="sec anchor" style="background:#fff">
+    <div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;gap:56px">
+      <div style="flex:1 1 380px;min-width:0;display:flex;flex-direction:column;gap:14px">
+        <p class="eyebrow">Vamos conversar</p>
+        <h2 class="h2" style="font-size:clamp(32px,4vw,48px)">Vamos dialogar sobre isso?</h2>
+        <p class="lead" style="font-size:16px">Conta pra gente o tamanho da equipe e o momento da empresa.</p>
+      </div>
+      <div class="chat" style="flex:1 1 460px;min-width:0;max-width:560px">
+        <div class="chat-head">
+          <svg width="32" height="32" viewBox="90 23 40 40" fill="none" aria-hidden="true"><rect x="90" y="23" width="40" height="40" rx="20" fill="#F0FDFA"/><path d="M117.5 42.5834C117.503 43.6832 117.246 44.7683 116.75 45.75C116.162 46.9265 115.258 47.916 114.14 48.6078C113.021 49.2995 111.732 49.6662 110.417 49.6667C109.317 49.6696 108.232 49.4126 107.25 48.9167L102.5 50.5L104.083 45.75C103.587 44.7683 103.33 43.6832 103.333 42.5834C103.334 41.2682 103.701 39.9791 104.392 38.8605C105.084 37.7419 106.074 36.838 107.25 36.25C108.232 35.7541 109.317 35.4972 110.417 35.5H110.833C112.57 35.5959 114.211 36.329 115.441 37.5591C116.671 38.7892 117.404 40.4297 117.5 42.1667V42.5834Z" fill="#CBFBF1" stroke="#0D9488" stroke-linecap="round" stroke-linejoin="round"/><path d="M110 39.25V45.0833" stroke="#0D9488" stroke-width="1.5" stroke-linecap="round"/><path d="M107.5 42.5834L110 45.0834L112.5 42.5834" stroke="#0D9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span style="font-size:14px;font-weight:700;letter-spacing:1.4px;color:#00786F">GANHAR</span>
+          <button class="icon-btn" data-action="restart" aria-label="Recomeçar conversa" title="Recomeçar conversa"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg></button>
+        </div>
+        <div style="height:4px;background:#E5E7EB"><div id="chat-progress" style="height:4px;width:8%;background:#0D9488;transition:width .7s"></div></div>
+        <div class="chat-body" id="chat-body" aria-live="polite"></div>
+        <div style="padding:0 18px 16px">
+          <form class="chat-field" id="chat-form" novalidate>
+            <input class="field" id="chat-input" aria-label="Resposta" disabled placeholder="Escolha uma das opções acima" autocomplete="on">
+            <button class="send" id="chat-send" type="submit" aria-label="Enviar resposta" disabled><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg></button>
+          </form>
+          <p role="alert" id="chat-error" hidden style="margin:6px 4px 0;font-size:13px;color:#C10007"></p>
+          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;margin-top:12px;font-size:13px">
+            <a href="tel:+5547992082966">(47) 99208-2966</a>
+            <a href="mailto:atendimento@roseanerodriguespsc.com">atendimento@roseanerodriguespsc.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ======================================================= -->
+<!-- =============== IMPLEMENTAÇÃO NR-1 ==================== -->
+<!-- ======================================================= -->
+<div data-page="nr1" class="fade" hidden>
+
+  <section style="background:var(--grad-documento);color:#fff">
+    <div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;gap:56px;padding-top:80px;padding-bottom:96px">
+      <div style="flex:1 1 440px;min-width:0;display:flex;flex-direction:column;gap:24px">
+        <p class="eyebrow" style="color:#46EDD5">Implementação da NR-1</p>
+        <h1 class="h1" style="color:#fff">Gestão humana para alcançar resultados reais</h1>
+        <p class="lead" style="color:#E6F7F5;max-width:520px">Cuidar do clima, da liderança e do bem-estar da equipe, com método, dados e gente por perto.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:12px">
+          <a class="btn btn-white" href="#contato" data-go="inicio" data-target="contato">Solicitar proposta</a>
+          <a class="btn btn-ghost" href="#fases" data-go="nr1" data-target="fases">Ver as fases</a>
+        </div>
+      </div>
+      <div style="flex:1 1 440px;min-width:0;position:relative;padding:24px 0 56px">
+        <img src="assets/foto_reuniao.webp" alt="Encontro Entendendo a NR-01 com a equipe da NLK em Manaus" style="display:block;width:100%;aspect-ratio:5/4;object-fit:cover;border-radius:24px;box-shadow:0 25px 40px -10px rgba(0,0,0,.35)">
+        <div class="float" style="position:absolute;top:0;right:-12px;display:flex;align-items:center;gap:12px;padding:10px 16px 10px 10px;border-radius:16px;background:#fff;color:#19212E;box-shadow:0 10px 15px -3px rgba(0,0,0,.2)">
+          <svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="14" fill="none" stroke="#E5E7EB" stroke-width="5"/><circle cx="18" cy="18" r="14" fill="none" stroke="#00786F" stroke-width="5" stroke-dasharray="62 88" stroke-linecap="round" transform="rotate(-90 18 18)"/></svg>
+          <div><div class="label">Plano de ação</div><div style="font-size:13px;font-weight:700">Ações em andamento</div></div>
+        </div>
+        <div style="position:absolute;left:-12px;bottom:30px;width:280px;max-width:75%;padding:16px 18px;border-radius:16px;background:#fff;color:#19212E;box-shadow:0 10px 15px -3px rgba(0,0,0,.2)">
+          <div class="label">Na empresa "NLK"</div>
+          <div style="font-size:15px;font-weight:700;margin-top:4px;line-height:1.35">Encontro "Entendendo a NR-01" com a equipe</div>
+          <div style="font-size:12px;color:#5A6575;margin-top:6px">MANAUS · 2026</div>
+        </div>
+        <div class="float" style="position:absolute;right:8px;bottom:0;display:flex;align-items:center;gap:10px;padding:8px 16px 8px 8px;border-radius:999px;background:#fff;color:#19212E;font-size:13px;font-weight:600;box-shadow:0 10px 15px -3px rgba(0,0,0,.2)">
+          <span style="width:30px;height:30px;border-radius:50%;background:#00786F;display:inline-flex;align-items:center;justify-content:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>Diagnóstico em andamento
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" style="padding-bottom:0">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:36px">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:20px">
+        <div style="display:flex;flex-direction:column;gap:12px;max-width:620px"><p class="eyebrow">Diferencial estratégico</p><h2 class="h2">Um programa que atua em três níveis</h2></div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px"><span class="chip chip-teal">✓ GRO</span><span class="chip chip-teal">✓ PGR</span><span class="chip chip-teal">✓ Fatores psicossociais</span></div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px">
+        <div class="card" style="padding:30px;display:flex;flex-direction:column;gap:12px">
+          <span style="width:44px;height:44px;border-radius:50%;background:#F0FDFA;display:inline-flex;align-items:center;justify-content:center;color:#00786F"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+          <span class="label" style="margin-top:8px">Nível 1</span>
+          <h3 style="margin:0;font-size:22px;font-weight:700">Preventivo</h3>
+          <p style="margin:0;font-size:14px;line-height:1.6;color:#5A6575">Identifica os pontos de atenção cedo, antes que afetem as pessoas.</p>
+        </div>
+        <div class="card" style="padding:30px;display:flex;flex-direction:column;gap:12px">
+          <span style="width:44px;height:44px;border-radius:50%;background:#F0FDFA;display:inline-flex;align-items:center;justify-content:center;color:#00786F"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></span>
+          <span class="label" style="margin-top:8px">Nível 2</span>
+          <h3 style="margin:0;font-size:22px;font-weight:700">Assistencial</h3>
+          <p style="margin:0;font-size:14px;line-height:1.6;color:#5A6575">Oferece avaliação e acompanhamento, com suporte real para as pessoas.</p>
+        </div>
+        <div class="card" style="padding:30px;display:flex;flex-direction:column;gap:12px">
+          <span style="width:44px;height:44px;border-radius:50%;background:#F0FDFA;display:inline-flex;align-items:center;justify-content:center;color:#00786F"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-6"/></svg></span>
+          <span class="label" style="margin-top:8px">Nível 3</span>
+          <h3 style="margin:0;font-size:22px;font-weight:700">Estratégico</h3>
+          <p style="margin:0;font-size:14px;line-height:1.6;color:#5A6575">Gera inteligência organizacional sobre o comportamento humano.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fases" class="sec anchor">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:28px">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px">
+        <div style="display:flex;flex-direction:column;gap:12px;max-width:620px"><p class="eyebrow">Como a gente implementa</p><h2 class="h2">As cinco fases, no ritmo da sua empresa</h2></div>
+        <p style="margin:0;font-size:13px;color:#5A6575">Escolha uma fase para ver o que acontece em cada uma.</p>
+      </div>
+      <div role="tablist" aria-label="Fases da implementação" style="display:flex;flex-wrap:wrap;gap:12px">
+        <div id="phase-tabs" style="display:contents"></div>
+      </div>
+      <div class="card" role="tabpanel" style="display:flex;flex-wrap:wrap;gap:40px;padding:clamp(24px,4vw,44px)">
+        <div style="flex:1 1 280px;min-width:0;display:flex;flex-direction:column;gap:10px">
+          <div style="font-size:72px;font-weight:800;line-height:1;color:#B2ECE5" id="phase-num">01</div>
+          <h3 style="margin:0;font-size:28px;font-weight:700" id="phase-title">Diagnóstico</h3>
+          <p style="margin:0;font-size:15px;line-height:1.7;color:#5A6575;max-width:380px" id="phase-desc"></p>
+        </div>
+        <div style="flex:1.3 1 360px;min-width:0;display:flex;flex-direction:column;gap:10px">
+          <div class="label">O que acontece</div>
+          <div id="phase-items" style="display:contents"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:28px">
+      <div style="display:flex;flex-direction:column;gap:12px;max-width:680px"><p class="eyebrow">Cronograma</p><h2 class="h2">Do diagnóstico à execução em 20 semanas, com acompanhamento depois</h2></div>
+      <div class="card" style="padding:28px;overflow-x:auto">
+        <div style="min-width:640px;display:flex;flex-direction:column;gap:12px">
+          <div style="display:grid;grid-template-columns:170px repeat(24,minmax(0,1fr));font-size:11px;color:#5A6575"><span></span><span style="grid-column:2/6">Sem. 1</span><span style="grid-column:6/10">Sem. 5</span><span style="grid-column:10/14">Sem. 9</span><span style="grid-column:14/18">Sem. 13</span><span style="grid-column:18/22">Sem. 17</span><span style="grid-column:22/26">Depois</span></div>
+          <div id="gantt" style="display:contents"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="entregaveis" class="anchor" style="padding:0 0 96px">
+    <div class="wrap">
+      <div style="padding:clamp(24px,4vw,56px);border-radius:28px;background:#ECEFF4;display:flex;flex-direction:column;gap:32px">
+        <div style="display:flex;flex-direction:column;gap:12px;max-width:620px"><p class="eyebrow">O que você recebe</p><h2 class="h2">Entregáveis claros, para a liderança decidir</h2></div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px">
+          <div class="card" style="padding:24px;display:flex;flex-direction:column;gap:10px">
+            <span style="width:40px;height:40px;border-radius:12px;background:#F0FDFA;display:inline-flex;align-items:center;justify-content:center;color:#00786F"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 17 6-6 4 4 8-8"/></svg></span>
+            <h3 style="margin:0;font-size:17px;font-weight:700">Classificação por nível</h3>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#5A6575">Cada setor classificado em quatro níveis de atenção.</p>
+            <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="chip chip-ok" style="font-size:11px;padding:3px 10px">Baixo</span><span class="chip chip-mid" style="font-size:11px;padding:3px 10px">Médio</span><span class="chip chip-high" style="font-size:11px;padding:3px 10px">Alto</span><span class="chip chip-crit" style="font-size:11px;padding:3px 10px">Crítico</span></div>
+          </div>
+          <div class="card" style="padding:24px;display:flex;flex-direction:column;gap:10px">
+            <span style="width:40px;height:40px;border-radius:12px;background:#F0FDFA;display:inline-flex;align-items:center;justify-content:center;color:#00786F"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></span>
+            <h3 style="margin:0;font-size:17px;font-weight:700">Dashboard executivo</h3>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#5A6575">Mapa de calor por área, para ver numa tela onde agir primeiro.</p>
+          </div>
+          <div class="card" style="padding:24px;display:flex;flex-direction:column;gap:10px">
+            <span style="width:40px;height:40px;border-radius:12px;background:#F0FDFA;display:inline-flex;align-items:center;justify-content:center;color:#00786F"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg></span>
+            <h3 style="margin:0;font-size:17px;font-weight:700">Relatório técnico</h3>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#5A6575">Principais temas por setor e recomendações estratégicas.</p>
+          </div>
+          <div class="card" style="padding:24px;display:flex;flex-direction:column;gap:10px">
+            <span style="width:40px;height:40px;border-radius:12px;background:#F0FDFA;display:inline-flex;align-items:center;justify-content:center;color:#00786F"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.5 8.5 0 0 1-3.8-.9L3 21l2-5.2a8.4 8.4 0 0 1-.9-3.8A8.5 8.5 0 0 1 12.5 3h.5a8.5 8.5 0 0 1 8 8z"/></svg></span>
+            <h3 style="margin:0;font-size:17px;font-weight:700">Perfis GANHAR</h3>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#5A6575">Como as pessoas estão funcionando hoje, com caminhos de evolução.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px">
+    <div class="wrap" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
+      <div class="card" style="padding:32px;display:flex;flex-direction:column;gap:12px">
+        <p class="eyebrow">Ferramentas</p>
+        <h3 style="margin:0;font-size:22px;font-weight:700;line-height:1.3">Instrumentos psicológicos e neuropsicológicos</h3>
+        <p style="margin:0;font-size:14px;line-height:1.7;color:#5A6575">O diagnóstico usa ferramentas reconhecidas, como o Mapa HDS, e a plataforma do Método GANHAR®, aplicadas e interpretadas por psicólogas.</p>
+      </div>
+      <div style="padding:32px;border-radius:20px;background:#F0FDFA;border:1px solid #B2ECE5;display:flex;flex-direction:column;gap:12px">
+        <p class="eyebrow">Complementar · Bem-estar</p>
+        <h3 style="margin:0;font-size:22px;font-weight:700;line-height:1.3">Cuidado que continua depois do diagnóstico</h3>
+        <ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;font-size:14px;line-height:1.5">
+          <li>Workshops mensais ou trimestrais</li>
+          <li>Consultas em clínica médica</li>
+          <li>Consultas em psicologia e neuropsicologia, presenciais ou online</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px">
+    <div class="wrap">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px;padding:clamp(28px,5vw,64px);border-radius:28px;background:var(--grad-entrada)">
+        <div style="flex:1 1 420px;display:flex;flex-direction:column;gap:12px;max-width:640px">
+          <h2 class="h2">Vamos montar a proposta da sua empresa</h2>
+          <p style="margin:0;font-size:15px;line-height:1.7">Investimento por colaborador, com parcelamento em até 6 vezes e primeiro pagamento 15 dias após o aceite.</p>
+        </div>
+        <a class="btn btn-primary" href="#contato" data-go="inicio" data-target="contato">Solicitar proposta</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ======================================================= -->
+<!-- ================== MÉTODO GANHAR ====================== -->
+<!-- ======================================================= -->
+<div data-page="metodo" class="fade" hidden>
+
+  <section style="background:linear-gradient(135deg,#E6F7F5 0%,#B2ECE5 35%,#5ECDC3 75%,#0D9488 100%);overflow:hidden">
+    <div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;gap:48px;padding-top:80px">
+      <div style="flex:1 1 460px;min-width:0;display:flex;flex-direction:column;gap:24px;padding-bottom:80px">
+        <p class="eyebrow" style="color:#134E4A">Método GANHAR®</p>
+        <h1 class="h1">Uma conversa.<br>Um perfil.<br>Um plano.</h1>
+        <p class="lead" style="color:#19212E;max-width:540px">Gestão Aplicada à Natureza Humana e a Resultados. Cada colaborador responde a um chat no celular e recebe um retrato de como está funcionando hoje, com ações para evoluir.</p>
+        <div><a class="btn btn-primary" href="#contato" data-go="inicio" data-target="contato">Levar para a minha empresa</a></div>
+      </div>
+      <div style="flex:1 1 420px;min-width:0;position:relative;display:flex;justify-content:center;align-self:flex-end">
+        <div class="phone cut" style="width:290px;height:520px"><img src="assets/tela_relatorio.webp" alt="Relatório GANHAR no celular"></div>
+        <div class="float" style="position:absolute;top:60px;left:0;padding:16px 18px;border-radius:16px;background:#fff;box-shadow:0 10px 25px -5px rgba(0,0,0,.15)">
+          <div class="label">Pontos de força</div>
+          <div style="display:flex;gap:6px;margin:8px 0 12px"><span class="chip chip-ok" style="font-weight:500">Resiliência</span><span class="chip chip-ok" style="font-weight:500">Foco</span></div>
+          <div class="label">Pontos de melhoria</div>
+          <div style="display:flex;gap:6px;margin-top:8px"><span class="chip chip-mid" style="font-weight:500">Influência</span><span class="chip chip-mid" style="font-weight:500">Networking</span></div>
+        </div>
+        <div class="float" style="position:absolute;right:0;top:270px;padding:16px 20px;border-radius:16px;background:#fff;box-shadow:0 10px 25px -5px rgba(0,0,0,.15)">
+          <div class="label">Perfil funcional</div>
+          <div style="font-size:24px;font-weight:800;color:#00786F;margin-top:4px">1 de 64</div>
+          <div style="font-size:12px;color:#5A6575">combinações possíveis</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:32px">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px">
+        <div style="display:flex;flex-direction:column;gap:12px;max-width:560px"><p class="eyebrow">Os seis pilares</p><h2 class="h2">Cada letra é uma dimensão avaliada</h2></div>
+        <p style="margin:0;font-size:14px;color:#5A6575;max-width:420px">O relatório mostra uma nota para cada pilar. A combinação deles forma o perfil funcional.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px">
+        <div id="pilares" style="display:contents"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="publico" class="anchor" style="padding:0 0 96px">
+    <div class="wrap" style="display:flex;flex-direction:column;align-items:center;gap:24px">
+      <p class="eyebrow">Duas formas de usar</p>
+      <h2 class="h2" style="text-align:center">Para quem você quer usar?</h2>
+      <div role="group" aria-label="Escolha o público" style="display:inline-flex;padding:5px;border-radius:999px;background:#fff;border:1px solid #E5E7EB">
+        <button class="seg is-on" data-aud="empresa" aria-pressed="true">Para a minha empresa</button>
+        <button class="seg" data-aud="pessoa" aria-pressed="false">Para mim</button>
+      </div>
+
+      <div data-aud-card="empresa" class="fade" style="width:100%;display:flex;flex-wrap:wrap;align-items:center;gap:40px;padding:clamp(28px,4vw,56px) clamp(28px,4vw,56px) 0;border-radius:28px;background:var(--grad-documento);color:#fff;overflow:hidden">
+        <div style="flex:1.2 1 420px;min-width:0;display:flex;flex-direction:column;gap:18px;padding-bottom:clamp(28px,4vw,56px)">
+          <span style="align-self:flex-start;padding:6px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);font-size:11px;font-weight:600;letter-spacing:1px">CONSULTORIA COM ACOMPANHAMENTO</span>
+          <h3 style="margin:0;font-size:clamp(28px,3.2vw,38px);line-height:1.15;font-weight:800;letter-spacing:-.02em">A equipe responde. As psicólogas transformam em plano.</h3>
+          <p style="margin:0;font-size:15px;line-height:1.7;color:#E6F7F5">Os perfis de todos são lidos por setor, com devolutiva para a gestão e plano de ação acompanhado por especialista. É a Fase 2 da nossa implementação da NR-1.</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px">
+            <div style="padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);font-size:14px;font-weight:500">Visão por área e setor</div>
+            <div style="padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);font-size:14px;font-weight:500">Devolutiva com especialista</div>
+            <div style="padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);font-size:14px;font-weight:500">Plano de ação para a gestão</div>
+            <div style="padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);font-size:14px;font-weight:500">Acompanhamento da evolução</div>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:12px">
+            <a class="btn btn-white" href="#contato" data-go="inicio" data-target="contato">Levar para a minha empresa</a>
+            <a class="btn btn-ghost" href="#nr1" data-go="nr1">Ver a implementação NR-1</a>
+          </div>
+        </div>
+        <div style="flex:1 1 340px;min-width:0;display:flex;justify-content:center;align-items:flex-end;align-self:flex-end">
+          <div class="phone cut hide-sm" style="width:190px;height:360px;margin-right:-24px"><img src="assets/tela_pergunta.webp" alt="Pergunta do questionário com escala de respostas"></div>
+          <div class="phone cut" style="width:220px;height:420px;z-index:2"><img src="assets/tela_progresso.webp" alt="Conversa com o progresso das respostas"></div>
+        </div>
+      </div>
+
+      <div data-aud-card="pessoa" class="fade" hidden style="width:100%;display:flex;flex-wrap:wrap;align-items:center;gap:40px;padding:clamp(28px,4vw,56px) clamp(28px,4vw,56px) 0;border-radius:28px;background:var(--grad-resultado);color:#fff;overflow:hidden">
+        <div style="flex:1.2 1 420px;min-width:0;display:flex;flex-direction:column;gap:18px;padding-bottom:clamp(28px,4vw,56px)">
+          <span style="align-self:flex-start;padding:6px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);font-size:11px;font-weight:600;letter-spacing:1px">USO INDIVIDUAL</span>
+          <h3 style="margin:0;font-size:clamp(28px,3.2vw,38px);line-height:1.15;font-weight:800;letter-spacing:-.02em">Você responde. Recebe seu perfil e um plano para evoluir.</h3>
+          <p style="margin:0;font-size:15px;line-height:1.7;color:#F0FDFA">Uma conversa no celular, sem cadastro. No fim, você recebe seu perfil funcional entre 64 possíveis, com pontos de força, pontos de melhoria e ações recomendadas.</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px">
+            <div style="padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);font-size:14px;font-weight:500">Perfil funcional</div>
+            <div style="padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);font-size:14px;font-weight:500">Nota para cada pilar</div>
+            <div style="padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);font-size:14px;font-weight:500">Ações diárias, semanais e mensais</div>
+            <div style="padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);font-size:14px;font-weight:500">Plano completo com especialista</div>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px"><button class="btn btn-white" data-action="questionario">Fazer o questionário</button><span style="font-size:13px;color:#CBFBF1">Em breve</span></div>
+        </div>
+        <div style="flex:1 1 340px;min-width:0;display:flex;justify-content:center;align-items:flex-end;align-self:flex-end">
+          <div class="phone cut hide-sm" style="width:190px;height:360px;margin-right:-24px"><img src="assets/tela_boasvindas.webp" alt="Tela de boas-vindas do GANHAR"></div>
+          <div class="phone cut" style="width:220px;height:420px;z-index:2"><img src="assets/tela_relatorio.webp" alt="Relatório com o perfil funcional"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:32px">
+      <div style="display:flex;flex-direction:column;gap:12px"><p class="eyebrow">A jornada · <span id="aud-label">para a empresa</span></p><h2 class="h2">Do primeiro "olá" ao plano de ação</h2></div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:20px">
+        <div id="journey" style="display:contents"></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:28px">
+      <div style="display:flex;flex-direction:column;gap:12px"><p class="eyebrow">Lógica de classificação</p><h2 class="h2">Como o perfil é identificado</h2></div>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:16px">
+        <div class="card" style="flex:1 1 240px;padding:24px"><div class="label">Grupo 1</div><p style="margin:10px 0 0;font-size:15px;line-height:1.6">Condição baixa ou moderada-baixa para a dimensão avaliada.</p></div>
+        <span style="font-size:24px;color:#0D9488" aria-hidden="true">+</span>
+        <div class="card" style="flex:1 1 240px;padding:24px"><div class="label">Grupo 2</div><p style="margin:10px 0 0;font-size:15px;line-height:1.6">Condição moderada-alta ou alta para a dimensão avaliada.</p></div>
+        <span style="font-size:24px;color:#0D9488" aria-hidden="true">→</span>
+        <div style="flex:1.2 1 280px;padding:24px;border-radius:20px;background:var(--grad-resultado);color:#fff"><div class="label" style="color:#CBFBF1">Resultado</div><p style="margin:10px 0 0;font-size:15px;line-height:1.6">Identificação do perfil que orienta o plano de ação prático e imediato.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:28px;max-width:980px">
+      <div style="display:flex;flex-direction:column;gap:12px"><p class="eyebrow">Perguntas importantes</p><h2 class="h2">Perguntas frequentes</h2><p style="margin:0;font-size:14px;color:#5A6575">Toque numa pergunta para ver a resposta.</p></div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div id="faq" style="display:contents"></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:linear-gradient(180deg,#FAFAFA 0%,#FAFAFA 45%,#E6F7F5 100%)">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:12px;padding-top:24px">
+      <p class="eyebrow">Por dentro do app</p>
+      <h2 class="h2">Calmo, claro e no ritmo de uma conversa</h2>
+    </div>
+    <div style="display:flex;justify-content:center;align-items:flex-end;gap:18px;padding:56px 24px 0;overflow:hidden;height:470px">
+      <div id="app-shots" style="display:contents"></div>
+    </div>
+  </section>
+
+  <section style="background:#134E4A;color:#fff">
+    <div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px;padding-top:72px;padding-bottom:72px">
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <h2 class="h2" style="color:#fff">Pronto para começar a conversa?</h2>
+        <p style="margin:0;font-size:15px;color:#CBFBF1">Gestão humana, desenvolvimento que faz sentido.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px">
+        <button class="btn btn-white" data-action="questionario">Fazer o questionário</button>
+        <a class="btn btn-ghost" href="#contato" data-go="inicio" data-target="contato">Entrar em contato</a>
+      </div>
+    </div>
+  </section>
+</div>
+</main>
+
+<!-- ============ Rodapé ============ -->
+<footer style="background:#134E4A;color:#fff;border-top:1px solid rgba(255,255,255,.12)">
+  <div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;padding-top:36px;padding-bottom:36px">
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:16px"><span style="font-size:16px;font-weight:800;letter-spacing:3px">GANHAR</span><span style="font-size:13px;color:#CBFBF1">Gestão humana, desenvolvimento que faz sentido.</span></div>
+    <div style="display:flex;flex-wrap:wrap;gap:22px;font-size:13px">
+      <a href="https://www.roseanerodriguespsc.com" target="_blank" rel="noopener" style="color:#fff">www.roseanerodriguespsc.com</a>
+      <a href="https://www.psiozilenesantos.com" target="_blank" rel="noopener" style="color:#fff">www.psiozilenesantos.com</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Aviso (questionário em breve) -->
+<div class="toast fade" id="toast" role="status" hidden>
+  <span style="flex:none;width:28px;height:28px;border-radius:50%;background:#FFFBEB;color:#BB4D00;display:inline-flex;align-items:center;justify-content:center;font-weight:700">!</span>
+  <div style="display:flex;flex-direction:column;gap:8px;font-size:14px;line-height:1.5">
+    <span id="toast-text"></span>
+    <a class="link" href="#contato" data-go="inicio" data-target="contato">Falar com a gente →</a>
+  </div>
+</div>
+
+</body>
+</html>
